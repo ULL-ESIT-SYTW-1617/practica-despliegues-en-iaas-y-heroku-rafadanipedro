@@ -27,6 +27,10 @@ app.use(bodyParser.urlencoded({
 
 app.use(bodyParser.json());
 
+app.use('/health', (req, res) => {
+  res.sendStatus(200)
+})
+
 app.use(express.static('gitbook/_book'));
 
 app.post('*', function (req, res) {
@@ -77,7 +81,7 @@ function generarGitbook () {
   })
 }
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || process.env.NODE_PORT || 8080;
 
 app.listen(port, function () {
   console.log(`Example app listening on port ${port}!`);
