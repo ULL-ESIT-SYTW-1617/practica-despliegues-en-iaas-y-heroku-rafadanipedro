@@ -1,0 +1,10 @@
+const port = process.env.PORT || process.env.NODE_PORT || 8080
+const addr = process.env.IP || process.env.NODE_IP || '0.0.0.0'
+
+const env = process.env.NODE_ENV || 'development'
+
+const app = require('../app.js')
+
+app.listen(port, addr, ()  => console.log(`Example app listening on port ${port}!`))
+
+module.exports = app
