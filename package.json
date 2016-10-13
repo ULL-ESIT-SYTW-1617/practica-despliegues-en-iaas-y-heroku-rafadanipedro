@@ -2,7 +2,7 @@
   "name": "prct03",
   "version": "1.0.0",
   "description": "Aplicación express para escuchar el webhook de Github y crear un Gitbook",
-  "main": "openshiftStart.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon --ignore gitbook index.js",
