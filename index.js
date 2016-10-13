@@ -83,6 +83,6 @@ function generarGitbook () {
 
 const port = process.env.PORT || process.env.NODE_PORT || 8080;
 
-app.listen(port, function () {
+app.listen(port, process.env.NODE_IP, function () {
   console.log(`Example app listening on port ${port}!`);
 });
