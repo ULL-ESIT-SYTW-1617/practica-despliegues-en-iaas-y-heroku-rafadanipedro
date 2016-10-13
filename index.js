@@ -55,7 +55,7 @@ app.post('*', function (req, res) {
     }
 
   } else {
-    res.status(403).send('Sólo puedes regenerar el gitbbok desde el webhook de github. Así que sólo pushea.')
+    res.status(403).send('Sólo puedes regenerar el gitbok desde el webhook de github. Así que sólo pushea.')
   }
 });
 
