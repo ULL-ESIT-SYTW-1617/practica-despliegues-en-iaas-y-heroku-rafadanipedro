@@ -17,6 +17,10 @@
   "bugs": {
     "url": "https://github.com/ULL-ESIT-SYTW-1617/practica-despliegues-en-iaas-y-heroku-rafadanipedro/issues"
   },
+  "engines" : {
+    "node" : "6.7.0"
+    "npm": "3.10.3"
+  },
   "homepage": "https://github.com/ULL-ESIT-SYTW-1617/practica-despliegues-en-iaas-y-heroku-rafadanipedro#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
