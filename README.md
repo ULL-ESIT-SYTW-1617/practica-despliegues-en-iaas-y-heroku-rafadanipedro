@@ -11,18 +11,18 @@ Para arrancar la aplicación de node se puede realizar o bien utilizando el coma
 O utilizar el arranque de la app con nodemon activo
 `node run dev`
 ##Comandos heroku
-Comando para iniciar sesión en heroku
+- Comando para iniciar sesión en heroku:
 `heroku login`
-Comando para comprobar las aplicaciones creadas
+- Comando para comprobar las aplicaciones creadas:
 `heroku apps`
-Comando para crear una aplicación en heroku. En caso de que no se introduzca un nombre de app se crea uno aleatorio
+- Comando para crear una aplicación en heroku. En caso de que no se introduzca un nombre de app se crea uno aleatorio:
 `heroku create nombreapp`
-Comando para eliminar una aplicación de heroku
+- Comando para eliminar una aplicación de heroku:
 `heroku apps:destroy --app --confirm nombreaplicacion`
-Comando para visualizar el log de la aplicación en heroku
+- Comando para visualizar el log de la aplicación en heroku:
 `heroku logs`
 
-##Enlace a tareas principales, que es el libro que se está pulleando.
+##Enlace al libro de tareas principales
 [Tareas Iniciales](https://github.com/ULL-ESIT-SYTW-1617/tareas-iniciales-rafadanipedro)
 
 ##Enlace heroku del libro
