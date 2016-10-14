@@ -68,6 +68,8 @@ Todos los comando anteriores se pueden modificar según el caso, ya que aquí, p
 Una vez realizado el deploy del libro, se debe ejecutar el siguiente comando:
 - `ssh sytw 'cd /home/usuario/directorio/gh-pages; git pull'`
 
+A pesar de esto, hemos añadido una tarea en el [repositorio del libro](https://github.com/ULL-ESIT-SYTW-1617/tareas-iniciales-rafadanipedro) con la cuál realizamos el despliegue de manera automática utilizando Gulp. Para ello, importamos el paquete [gulp-ssh](https://www.npmjs.com/package/gulp-ssh) con la configuración de dirección del IAAS, el usuario, el puerto y la localización de la clave ssh.
+
 Debemos de tener en cuenta que esto solo se puede realizar desde un ordenador conectado a la red interna de la ULL, por lo que obviamos el uso de Cloud9 en esta práctica.
 
 #NOTA
