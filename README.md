@@ -85,6 +85,12 @@ Utilizar nodejs en la versión 6.7.0 y Gulp en la versión 4 para evitar posible
 ##Enlace heroku del libro
 [Gitbook en heroku](https://p3-sytw-rafadanipedro.herokuapp.com/)
 
+##Enlace IAAS del libro
+[Gitbook en IAAS](http://10.6.128.185:8080/)
+
+##Enlace OpenShift del libro
+[Gitbook en OpenShift]()
+
 ## Páginas personales
 
 Pinchando sobre las imágenes podrás acceder a nuestras páginas personales.
