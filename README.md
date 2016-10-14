@@ -89,7 +89,7 @@ Utilizar nodejs en la versión 6.7.0 y Gulp en la versión 4 para evitar posible
 [Gitbook en IAAS](http://10.6.128.185:8080/)
 
 ##Enlace OpenShift del libro
-[Gitbook en OpenShift]()
+[Gitbook en OpenShift](http://p3sytwrafadanipedro-danielramosac.rhcloud.com/), no funciona, ver issue #1
 
 ## Páginas personales
 
